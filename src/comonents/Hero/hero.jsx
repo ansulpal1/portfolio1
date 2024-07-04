@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Hero.css"
 import Achievement from '../../Commons/Achievement/achievement'
-import client from '../../assets/client-1.jpeg'
+
 import Ansul from '../../assets/ansul.img.jpg'
 const Hero = () => {
   

@@ -1,8 +1,6 @@
-import client1 from "./assets/client-1.jpeg";
-import client2 from "./assets/client-2.jpeg";
-import client3 from "./assets/client-3.jpeg";
-import client4 from "./assets/client-4.jpeg";
-import client5 from "./assets/client-5.jpeg";
+import Bsn1 from "./assets/bsn1.png"
+import Event1 from "./assets/event1.png"
+import picyard1 from "./assets/picyard1.png"
 import { IoMdAnalytics} from "react-icons/io";
 import { IoCallOutline ,IoLocationOutline } from "react-icons/io5";
 import { GrUserExpert } from "react-icons/gr";
@@ -157,7 +155,7 @@ export const projects = [
   { 
     id:1,
     title: 'Blood Source Navigator',
-    image: '../src/assets/bsn1.png',
+    image: Bsn1,
     category:"UI/UX",
     description: `Our platform bridges hospitals with blood donors, facilitating rapid, reliable connections for life-saving donations. We streamline the donor search process, ensuring hospitals receive timely support, enhancing patient care and outcomes through a seamless, user-friendly interface.`,
     demoLink: "",
@@ -224,7 +222,7 @@ export const projects = [
   {
     id:3,
     title: 'E-Commerce Application-Pikyard',
-    image: '../src/assets/picyard1.png',
+    image: picyard1,
     category:"Web",
     description:`Enhance your online shopping experience with our E-Commerce Application 
       UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
@@ -257,7 +255,7 @@ export const projects = [
   {
     id:4,
     title: 'Event Management System',
-    image: '../src/assets/event1.png',
+    image: Event1,
     category:"Web",
     description:`Our college society's event management system simplifies organizing and attending events. It streamlines event planning, registration, and communication, ensuring efficient coordination. With features like scheduling, reminders, and participant tracking, it enhances the event experience for both organizers and attendees, making every event successful and memorable`,
     demoLink: "https://google.com/",
@@ -322,7 +320,7 @@ export const projects = [
 
 export const clients = [
   {
-    image:client1,
+    image:"",
     name:'Samuel Eze',
     review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -331,14 +329,14 @@ export const clients = [
            exercitation ullamco laboris`
   },
   {
-    image:client2,
+    image:"",
     name:'Richael Linda',
     review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
   },
   {
-    image:client3,
+    image:"",
     name:'Gloria Chiwendu',
     review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -347,14 +345,14 @@ export const clients = [
            exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
   },
   {
-    image:client4,
+    image:"",
     name:'Precious Stone',
     review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
   },
   {
-    image:client5,
+    image:"",
     name:'Ndubisi John',
     review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
