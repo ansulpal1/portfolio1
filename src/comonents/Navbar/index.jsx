@@ -36,8 +36,8 @@ const Navbar = () => {
 </div>
 {/* <SocialHandels/> */}
 <div className='box flex-center buttons'>
-<a  href='/resume.pdf'
-  download='resume.pdf' smooth={true} className='btn primary contact-btn' >
+<a  href='/Ansul_resume.pdf'
+  download='Ansul_resume.pdf' smooth={true} className='btn primary contact-btn' >
 Hire me
 </a>
 <Link to='services' smooth={true} className='btn services-btn' >

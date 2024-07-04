@@ -21,8 +21,8 @@ const Hero = () => {
           <div className="flex-center buttons-wrapper">
           
  
-            <a  href='/resume.pdf'
-  download='resume.pdf' smooth={true} className='btn primary' data-aos='fade-left'data-aos-delay= '1200' data-aos-offset="50" > Download CV </a>
+            <a  href='/Ansul_resume.pdf'
+  download='Ansul_resume.pdf' smooth={true} className='btn primary' data-aos='fade-left'data-aos-delay= '1200' data-aos-offset="50" > Download CV </a>
             <a href='contact' smooth={true} className='btn' data-aos='fade-left'data-aos-delay= '1500' data-aos-offset="50"> Get started</a>
           </div>
         </div>
