@@ -1,29 +1,34 @@
-#hero{
+#hero {
     overflow: hidden;
     position: relative;
 
 }
-#hero .info-container{
-    display:grid ;
+
+#hero .info-container {
+    display: grid;
     grid-template-columns: auto 500px;
     gap: 20px;
     min-height: 140vh;
 }
-#hero .info-container .column:nth-child(1){
+
+#hero .info-container .column:nth-child(1) {
     padding-top: 70px;
-    
+
 
 }
+
 #hero .heading-1,
-#hero .sub-title{
+#hero .sub-title {
     text-align: left;
 }
-#hero .wrapper .buttons-wrapper{
+
+#hero .wrapper .buttons-wrapper {
     justify-content: flex-start;
     margin-top: 40px;
-    
+
 }
-#hero .achievement-cluster{
+
+#hero .achievement-cluster {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -31,22 +36,28 @@
     -webkit-backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
 }
-#hero .achievement-cluster .wrapper{
+
+#hero .achievement-cluster .wrapper {
     padding: 30px 20px;
 }
-.client-image{
+
+.client-image {
+    margin-top: 40px;
     border-radius: 17% 74% 12% 88% / 48% 48% 52% 52%;
+    max-height: 250px;
 }
 
 /* Responsive */
-@media (max-width:1050px){
-    #hero .info-container *{
+@media (max-width:1050px) {
+    #hero .info-container * {
         text-align: center;
     }
-    #hero .info-container{
+
+    #hero .info-container {
         grid-template-columns: 100%;
     }
-    #hero .info-container .buttons-wrapper{
+
+    #hero .info-container .buttons-wrapper {
         justify-content: center;
     }
 }
