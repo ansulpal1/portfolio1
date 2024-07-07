@@ -415,7 +415,7 @@ export const footer = [
       routes:[
         {name:"Services",id:'services'},
         {name:"Projects",id:'projects'},
-        {name:"Testimonials",id:'testimonials'},
+        // {name:"Testimonials",id:'testimonials'},
       ]
     },
   {

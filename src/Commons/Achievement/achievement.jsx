@@ -42,7 +42,7 @@ const Achievement = () => {
 
             </div>
             <p className="muted name">
-                Copleted Projects
+                Completed Projects
             </p>
         </div>
     </div>
