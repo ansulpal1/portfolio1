@@ -45,7 +45,9 @@
 #services .service .buttons-wrapper{
     margin-top: 30px;
 }
-
+.m-start{
+   text-align: left;
+}
 /* responsive */
 
 @media(max-width:1000px){
@@ -58,5 +60,12 @@
     #services .services-container{
         grid-template-columns: 100%
 
+    }
+}
+
+@media(max-width:400px){
+    #services .service .buttons-wrapper{
+font-size: 10px;
+justify-content: center;
     }
 }

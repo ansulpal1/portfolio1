@@ -26,7 +26,7 @@ const Services = () => {
       </div>
       <div className="details">
         <h3 className="name gradient-text">{service.name}</h3>
-        <p className="muted">{
+        <p className="muted m-start">{
           service.description}</p>
       </div>
       <div className="buttons-wrapper">
