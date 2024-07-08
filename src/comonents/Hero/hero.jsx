@@ -3,6 +3,7 @@ import "./Hero.css"
 import Achievement from '../../Commons/Achievement/achievement'
 
 import Ansul from '../../assets/ansul.img.jpg'
+import { Link } from 'react-scroll'
 const Hero = () => {
   
   return (
@@ -23,7 +24,7 @@ const Hero = () => {
  
             <a  href='/Ansul_resume.pdf'
   download='Ansul_resume.pdf' smooth={true} className='btn primary' data-aos='fade-left'data-aos-delay= '1200' data-aos-offset="50" > Download CV </a>
-            <a href='contact' smooth={true} className='btn' data-aos='fade-left'data-aos-delay= '1500' data-aos-offset="50"> Get started</a>
+            <Link to='contact' smooth={true} className='btn' data-aos='fade-left'data-aos-delay= '1500' data-aos-offset="50"> Get started</Link>
           </div>
         </div>
         <div className='column hero-image' data-aos='fade-left'data-aos-delay= '200'>
