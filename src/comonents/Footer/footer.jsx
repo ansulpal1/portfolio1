@@ -32,7 +32,7 @@ const Footer = () => {
 <div className=" flex-center copyright"data-aos='fade-left' >
   <h4>Copyright &copy; All right reserved -| 2024</h4>
   <p className="muted">
-    Built with love <span  style={{color:'red'}}>&hearts;</span> by Ansul pal
+    Built with <span  style={{color:'red'}}>&hearts;</span> by Ansul pal
 
   </p>
 
