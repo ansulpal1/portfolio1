@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='column hero-image' data-aos='fade-left'data-aos-delay= '200'>
-          <img  src={Ansul}alt="client" className="client-image" />
+          {/* <img  src={Ansul}alt="client" className="client-image" /> */}
         </div>
 
       </div>
