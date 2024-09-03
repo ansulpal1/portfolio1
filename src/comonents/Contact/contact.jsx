@@ -67,7 +67,7 @@ const Contact = () => {
             </p>
           </div>
           <form onSubmit={handleSubmit}>
-            <div className="middle">
+            <div className="middle">  
               <div className="flex row">
                 <input
                   type="text"
