@@ -28,7 +28,7 @@ const Hero = () => {
             <Link to='contact' smooth={true} className='btn' data-aos='fade-left' data-aos-delay='1500' data-aos-offset="50"> Get started</Link>
           </div>
         </div>
-        <div className='column hero-image' data-aos='fade-left' data-aos-delay='200'>
+        <div className='column hero-image column2' data-aos='fade-left' data-aos-delay='200'>
           {/* <img  src={Ansul}alt="client" className="client-image" /> */}
 <HeroImage/>
         </div>
