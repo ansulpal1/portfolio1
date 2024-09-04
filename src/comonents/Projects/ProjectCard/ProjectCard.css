@@ -27,7 +27,7 @@
 margin-bottom: 10px;
 }
 .project-card .picture{
-    height: 350px;
+    height: 250px;
     overflow: hidden;
 }
 .project-card .picture img{
@@ -48,9 +48,10 @@ margin-bottom: 10px;
 .project-card .middle{
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--border-primary);
-    height: 160px;
+    height: 130px;
     overflow-x: hidden;
     overflow-y: auto;
+    overflow: hidden;
 }
 .project-card .middle .description{
     font-size: 14px;
