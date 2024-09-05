@@ -27,7 +27,7 @@
 margin-bottom: 10px;
 }
 .project-card .picture{
-    height: 250px;
+    height: 200px;
     overflow: hidden;
 }
 .project-card .picture img{
@@ -52,6 +52,7 @@ margin-bottom: 10px;
     overflow-x: hidden;
     overflow-y: auto;
     overflow: hidden;
+    
 }
 .project-card .middle .description{
     font-size: 14px;
