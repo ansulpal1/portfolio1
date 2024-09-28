@@ -141,13 +141,15 @@ transition: var(--transition);
 }
 .btn{
   padding: 10px 20px;
-  background: var(--bg-secondary);
+  background: var(--primary);
+  /* background: var(--bg-secondary); */
 
   border:1px solid var(--border-primary);
   border-radius: 10px;
   color: var(--foreground);
   cursor: pointer;
   margin-left: 10px;
+  
 }
 .btn.primary{
   background: var(--gradient-1);

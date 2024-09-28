@@ -1,15 +1,18 @@
-#projects{
+#projects {
     overflow: hidden;
 }
-#projects .projects-container{
+
+#projects .projects-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2, 3fr);
     gap: 30px;
     margin-top: 40px;
 }
+
 /* responsive */
-@media(max-width:700px){
-    #projects .projects-container{
+@media(max-width:700px) {
+    #projects .projects-container {
         grid-template-columns: 100%;
     }
 }
+

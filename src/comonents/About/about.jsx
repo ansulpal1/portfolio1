@@ -9,7 +9,7 @@ const About = () => {
   <div className="section-header">
     <h1 className="heading-1" data-aos='fade-left'>
       <span className="gradient-text">
-        About Us
+        About Me
       </span>
     </h1>
     <h4 className="sub-title muted" data-aos='fade-left'>

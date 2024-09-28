@@ -13,6 +13,7 @@
    animation: ZoomIn 400ms;
 
 }
+
 @keyframes ZoomIn {
     0% {
    scale: 0.7;

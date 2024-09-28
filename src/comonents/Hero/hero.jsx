@@ -5,7 +5,10 @@ import Achievement from '../../Commons/Achievement/achievement'
 
 import Ansul from '../../assets/ansul.img.jpg'
 import { Link } from 'react-scroll'
+
+
 const Hero = () => {
+
 
   return (
     <section id='hero'>
@@ -24,13 +27,13 @@ const Hero = () => {
 
 
             <a href='/Ansul_resume.pdf'
-              download='Ansul_resume.pdf' smooth={true} className='btn primary' data-aos='fade-left' data-aos-delay='1200' data-aos-offset="50" > Download CV </a>
-            <Link to='contact' smooth={true} className='btn' data-aos='fade-left' data-aos-delay='1500' data-aos-offset="50"> Get started</Link>
+              download='Ansul_resume.pdf' smooth={true} className='btn primary btn2' data-aos='fade-left' data-aos-delay='1200' data-aos-offset="50" > Download CV </a>
+            <Link to='contact' smooth={true} className='btn btn2' data-aos='fade-left' data-aos-delay='1500' data-aos-offset="50"> 👋 Let's Connect</Link>
           </div>
         </div>
         <div className='column hero-image column2' data-aos='fade-left' data-aos-delay='200'>
           {/* <img  src={Ansul}alt="client" className="client-image" /> */}
-<HeroImage/>
+          <HeroImage />
         </div>
 
       </div>

@@ -30,7 +30,7 @@ useEffect(()=>{
     
      <About />
      <Skills />
-     <Services/>
+     {/* <Services/> */}
      <Projects/>
      {/* <Testimonials/> */}
      <Contact/>

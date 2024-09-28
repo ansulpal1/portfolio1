@@ -48,8 +48,8 @@ const ProjectCard = ({
         </div>
     </div>
     <div className=" flex-center buttons-container">
-        <a href={demoLink} target="_blank" className="btn primary"><AiOutlineShareAlt/></a>
-        <div className="flex-center btn primary"> <ComingSoonModal/></div>
+       
+        <div className="flex-center btn "> <ComingSoonModal/></div>
     </div>
 </div>
 

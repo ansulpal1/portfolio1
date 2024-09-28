@@ -40,9 +40,9 @@ const Navbar = () => {
   download='Ansul_resume.pdf' smooth={true} className='btn primary contact-btn' >
 Hire me
 </a>
-<Link to='services' smooth={true} className='btn services-btn' >
+{/* <Link to='services' smooth={true} className='btn services-btn' >
 Services
-</Link>
+</Link> */}
 <div className='flex-center icon-wrapper menu-btn' onClick={()=>setOpenSidebar(!openSidebar)}>
 <HiMenu/>
 </div>

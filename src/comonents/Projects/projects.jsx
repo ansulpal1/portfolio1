@@ -35,8 +35,9 @@ useEffect(()=>{
       <div className="wrapper">
       <div className="section-header">
         <h1 className="heading-1">
-          <span className="gradient-text">Projects</span>
+          <span className="gradient-text">Featured Projects</span>
         </h1>
+        
       </div>
       <ProjectNavigation tabs={getTabs()} onChange={setProjects}/>
       <div className="projects-container">

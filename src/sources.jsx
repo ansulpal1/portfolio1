@@ -20,10 +20,12 @@ import { SiAdobexd } from "react-icons/si";
 import ComingSoon from "./comonents/ComingSoon/comingSoon";
 
 export const tabs = [
+  {name:"Home",id:'hero'},
     {name:"About Me",id:'about'},
     {name:"Skill",id:'skill'},
-    {name:"Services",id:'services'},
+    // {name:"Services",id:'services'},
     {name:"Projects",id:'projects'},
+   
     // {name:"Testimonials",id:'testimonials'},
 ]
 
@@ -160,11 +162,7 @@ export const projects = [
     description: `Our platform bridges hospitals with blood donors, facilitating rapid, reliable connections for life-saving donations. We streamline the donor search process, ensuring hospitals receive timely support, enhancing patient care and outcomes through a seamless, user-friendly interface.`,
     demoLink: "",
     stack:[
-      {
-        name:"XD",
-        icon: <SiAdobexd/>,
-        iconColor:"skyblue",
-      },
+     
       {
         name:"ReactJs",
         icon: <DiReact/>,
@@ -422,8 +420,8 @@ export const footer = [
       title:"Others",
       routes:[
         {name:"Privacy Policy"},
-        {name:"Terms and Conditions"},
-        {name:"Cookie Policy"},
+        {name:"Terms and Conditions"}
+       
       ]
     },
 ]
