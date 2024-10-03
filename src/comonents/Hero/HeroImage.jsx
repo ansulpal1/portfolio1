@@ -16,7 +16,9 @@ const HeroImage = () => {
         <div className="wrapper-m">
           <div className="img-area-m">
             <div className="inner-area-m">
-              <img src={ansul} alt />
+              <img src={ansul} 
+              loading='lazy'
+              alt='Lazy loding...'/>
             </div>
           </div>
           <div className="icon arrow"><i className="fas fa-arrow-left" /></div>
