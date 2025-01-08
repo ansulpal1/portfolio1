@@ -102,10 +102,10 @@ export const skills = [
               skill:"JavaScript",
               level:"Experienced",
           },
-          // {
-          //     skill:"Tailwind",
-          //     level:"Intermediate",
-          // },
+           {
+               skill:"Tailwind",
+               level:"Intermediate",
+          },
           {
               skill:"Bootstrap",
               level:"Experienced",
@@ -132,10 +132,10 @@ export const skills = [
               level:"Intermediate",
           },
           
-          {
-              skill:"Python",
-              level:"Intermediate",
-          },
+          // {
+          //     skill:"Python",
+          //     level:"Intermediate",
+          // },
           {
               skill:"MySQL",
               level:"Intermediate",
@@ -146,6 +146,10 @@ export const skills = [
           },
           {
               skill:"Java",
+              level:"Intermediate",
+          },
+          {
+              skill:"Git/Github",
               level:"Intermediate",
           },
       ]
@@ -160,7 +164,7 @@ export const projects = [
     image: Bsn1,
     category:"UI/UX",
     description: `Our platform bridges hospitals with blood donors, facilitating rapid, reliable connections for life-saving donations. We streamline the donor search process, ensuring hospitals receive timely support, enhancing patient care and outcomes through a seamless, user-friendly interface.`,
-    demoLink: "",
+    demoLink: "https://github.com/ansulpal1/BloodSourceNavigoter",
     stack:[
      
       {
@@ -194,7 +198,7 @@ export const projects = [
       interface offers easy navigation, personalized recommendations, and secure 
       transactions. Elevate your digital storefront and captivate customers with a visually 
       stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/ansulpal1/Apnastore",
     stack:[
       {
         name:"ReactJs",
@@ -227,7 +231,7 @@ export const projects = [
       interface offers easy navigation, personalized recommendations, and secure 
       transactions. Elevate your digital storefront and captivate customers with a visually 
       stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/ansulpal1/pikyard",
     stack:[
       {
         name:"ReactJs",
@@ -256,7 +260,7 @@ export const projects = [
     image: Event1,
     category:"Web",
     description:`Our college society's event management system simplifies organizing and attending events. It streamlines event planning, registration, and communication, ensuring efficient coordination. With features like scheduling, reminders, and participant tracking, it enhances the event experience for both organizers and attendees, making every event successful and memorable`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/ansulpal1/minor-project",
     stack:[
       {
         name:"ReactJs",
@@ -280,40 +284,7 @@ export const projects = [
     ]
   },
   
-  {
-    id:6,
-    title: 'Quiz App Development',
-    image: 'https://i.pinimg.com/originals/b3/35/02/b33502e465346ace2a7f1df203d851a3.jpg',
-    category:"Apps",
-    description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
-      demoLink: "https://google.com/",
-    stack:[
-      {
-        name:"React Native",
-        icon: <TbBrandReactNative/>,
-        iconColor:"skyblue",
-      },
-      {
-        name:"NodeJs",
-        icon: <FaNodeJs/>,
-        iconColor:"green",
-      },
-      {
-        name:"ExpressJs",
-        icon: <SiExpress/>,
-      },
-      {
-        name:"MongoDB",
-        icon: <SiMongodb/>,
-        iconColor:"limegreen",
-      },
-    ]
-  },
+ 
 ]
 
 export const clients = [

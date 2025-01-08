@@ -2,6 +2,9 @@ import React from 'react'
 import "./ProjectCard.css"
 import { AiOutlineShareAlt } from 'react-icons/ai'
 import ComingSoonModal from '../../ComingSoon/comingSoon'
+import { Link } from 'react-scroll'
+import { projects } from '../../../sources'
+
 
 const ProjectCard = ({
     title,
@@ -24,6 +27,7 @@ const ProjectCard = ({
     <div className="middle">
         <p className="muted description">{description}</p>
     </div>
+    
     <div className="bottom">
         <div className="stack-container">
             <div className="stack-left">
@@ -39,9 +43,11 @@ const ProjectCard = ({
         <span className="flex-center stack-icon" style={{color:list.iconColor}}>
             {list.icon}
         </span>
-        <span className="stack-name">{list.name}</span>
+        <span className="stack-name"> {list.name}</span>
     </div>
+    
 </div>
+
                     ))
                 }
             </div>
@@ -49,7 +55,7 @@ const ProjectCard = ({
     </div>
     <div className=" flex-center buttons-container">
        
-        <div className="flex-center btn "> <ComingSoonModal/></div>
+        <a href={demoLink} target='blank' className="flex-center btn "> Demo</a>
     </div>
 </div>
 
