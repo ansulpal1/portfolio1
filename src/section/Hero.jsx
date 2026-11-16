@@ -354,7 +354,7 @@ const Hero = () => {
               <div className="absolute top-1/2 left-1/2 z-30 animate-orbit-node-6 pointer-events-auto">
                 <div className="px-3.5 py-1.5 rounded-full glass-panel border border-purple-400/30 text-xs font-semibold text-purple-300 flex items-center gap-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.5)] backdrop-blur-xl transition-transform hover:scale-105">
                   <span className="w-2 h-2 rounded-full bg-purple-400" />
-                  <span>TCS Engineer</span>
+                  <span>Engineer @TCS</span>
                 </div>
               </div>
 
